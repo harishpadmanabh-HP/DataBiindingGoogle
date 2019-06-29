@@ -84,7 +84,7 @@ Have you noticed something strange? Yes exactly, now we don’t have to write fi
 
 Let’s see another feature. Bind a data with UI element. So, we can remove setText method of TextView in above code. For that, we have to create a POJO class for that,
 
-public class PersonVO {
+    public class PersonVO {
 
     private String name;
     private String occupation;
@@ -165,7 +165,7 @@ Step 3: We have added “@{personVO.name}” in text property of TextView. Gener
 
 And last, we have to make small change in MainActivity.java like:
 
-public class MainActivity extends AppCompatActivity {
+    public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
